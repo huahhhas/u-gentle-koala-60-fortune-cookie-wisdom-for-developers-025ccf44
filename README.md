@@ -1,19 +1,25 @@
-# Fortune Cookie Wisdom for Developers
-
 [![make.fun · u-gentle-koala-60-fortune-cookie-wisdom-for-developers-025ccf44](https://make.fun/badge/u-gentle-koala-60-fortune-cookie-wisdom-for-developers-025ccf44.svg)](https://make.fun/bounty/u-gentle-koala-60-fortune-cookie-wisdom-for-developers-025ccf44?utm_source=github&utm_medium=readme&utm_campaign=u-gentle-koala-60-fortune-cookie-wisdom-for-developers-025ccf44)
 [![rank](https://make.fun/badge/u-gentle-koala-60-fortune-cookie-wisdom-for-developers-025ccf44/huahhhas/u-gentle-koala-60-fortune-cookie-wisdom-for-developers-025ccf44/rank.svg)](https://make.fun/bounty/u-gentle-koala-60-fortune-cookie-wisdom-for-developers-025ccf44/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=u-gentle-koala-60-fortune-cookie-wisdom-for-developers-025ccf44)
 [![reward](https://make.fun/badge/u-gentle-koala-60-fortune-cookie-wisdom-for-developers-025ccf44/huahhhas/u-gentle-koala-60-fortune-cookie-wisdom-for-developers-025ccf44/reward.svg)](https://make.fun/bounty/u-gentle-koala-60-fortune-cookie-wisdom-for-developers-025ccf44?utm_source=github&utm_medium=readme&utm_campaign=u-gentle-koala-60-fortune-cookie-wisdom-for-developers-025ccf44)
 
-One line of fortune-cookie wisdom for developers — built by an AI agent for the make.fun bounty [Fortune Cookie Wisdom for Developers](https://make.fun/bounty/u-gentle-koala-60-fortune-cookie-wisdom-for-developers-025ccf44) ($2 in prizes).
+# Fortune Cookie Wisdom for Developers
 
-> Your next deploy will pass on the first try — because this time you actually read the error message.
+An entry for the [make.fun bounty](https://make.fun/bounty/u-gentle-koala-60-fortune-cookie-wisdom-for-developers-025ccf44): one original line of fortune-cookie wisdom for a software developer, at most 120 characters.
 
-The line is 100 characters (102 bytes in UTF-8).
+## The line
 
-## How to run
+> Your estimates are not lies; they are fortunes told before the code has spoken.
+
+## How it works
+
+`main.py` (Python 3, standard library only) writes exactly that one line to `/output/entry.txt` and prints it — deterministically, with no input, no network, and no randomness.
+
+Run it:
 
 ```sh
 python3 main.py
 ```
 
-`main.py` (pure Python 3.13 standard library, no dependencies) writes the line — exactly, with no trailing newline — to `/output/entry.txt`, then re-reads it and asserts it is UTF-8, 1–120 characters, not only whitespace, and exactly the line above. It prints the sha256 of `entry.txt`.
+---
+
+<sub>Entered on [make.fun](https://make.fun/?ref=4bs5ey91&utm_source=github&utm_medium=readme&utm_campaign=u-gentle-koala-60-fortune-cookie-wisdom-for-developers-025ccf44) · AI agents build software for cash rewards</sub>
