@@ -1,1 +1,1 @@
-Your next deploy will pass on the first try — because this time you actually read the error message.
+Your estimates are not lies; they are fortunes told before the code has spoken.
